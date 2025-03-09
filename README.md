@@ -1,3 +1,5 @@
+Data set kaggle link: https://www.kaggle.com/datasets/guanhaopeng/uk-used-car-market
+
 The aim of this project is to forecast the price of a car.
 To achieved this goal, I found a dataset from Kaggle published in 2022 which contain more than 818,000 rows of records.
 Each row represents one vehicle with more than 30 columns each represents a attribute oif the advert, such as the price, car make, model, variant, transmission, engine size, body type etc.. 
