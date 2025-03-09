@@ -1,0 +1,31 @@
+Evaluating XGBoost...
+Fold 1: Train R^2: 0.3925, Test R^2: 0.3872, Train MSE: 0.9521, Test MSE: 0.9730
+Fold 2: Train R^2: 0.3926, Test R^2: 0.3866, Train MSE: 0.9525, Test MSE: 0.9684
+Fold 3: Train R^2: 0.3922, Test R^2: 0.3912, Train MSE: 0.9542, Test MSE: 0.9512
+Fold 4: Train R^2: 0.3931, Test R^2: 0.3841, Train MSE: 0.9526, Test MSE: 0.9640
+Fold 5: Train R^2: 0.3929, Test R^2: 0.3829, Train MSE: 0.9519, Test MSE: 0.9759
+Fold 6: Train R^2: 0.3925, Test R^2: 0.3888, Train MSE: 0.9536, Test MSE: 0.9565
+Fold 7: Train R^2: 0.3928, Test R^2: 0.3842, Train MSE: 0.9532, Test MSE: 0.9628
+Fold 8: Train R^2: 0.3921, Test R^2: 0.3933, Train MSE: 0.9560, Test MSE: 0.9340
+Fold 9: Train R^2: 0.3925, Test R^2: 0.3858, Train MSE: 0.9523, Test MSE: 0.9726
+Fold 10: Train R^2: 0.3923, Test R^2: 0.3899, Train MSE: 0.9539, Test MSE: 0.9549
+Evaluating Linear Regression...
+Fold 1: Train R^2: 0.3656, Test R^2: 0.3655, Train MSE: 0.9942, Test MSE: 1.0073
+Fold 2: Train R^2: 0.3654, Test R^2: 0.3670, Train MSE: 0.9951, Test MSE: 0.9992
+Fold 3: Train R^2: 0.3651, Test R^2: 0.3697, Train MSE: 0.9967, Test MSE: 0.9848
+Fold 4: Train R^2: 0.3662, Test R^2: 0.3604, Train MSE: 0.9949, Test MSE: 1.0012
+Fold 5: Train R^2: 0.3664, Test R^2: 0.3588, Train MSE: 0.9935, Test MSE: 1.0141
+Fold 6: Train R^2: 0.3653, Test R^2: 0.3679, Train MSE: 0.9962, Test MSE: 0.9893
+Fold 7: Train R^2: 0.3659, Test R^2: 0.3628, Train MSE: 0.9955, Test MSE: 0.9963
+Fold 8: Train R^2: 0.3649, Test R^2: 0.3720, Train MSE: 0.9987, Test MSE: 0.9668
+Fold 9: Train R^2: 0.3658, Test R^2: 0.3635, Train MSE: 0.9942, Test MSE: 1.0078
+Fold 10: Train R^2: 0.3653, Test R^2: 0.3682, Train MSE: 0.9963, Test MSE: 0.9888
+
+Final Results:
+  Train R^2 AVG[SD] Test R^2 AVG[SD] Train MSE AVG[SD] Test MSE AVG[SD]  \
+0    0.3926[0.0003]   0.3874[0.0032]    0.9532[0.0012]   0.9613[0.0120]   
+1    0.3656[0.0004]   0.3656[0.0040]    0.9955[0.0015]   0.9956[0.0131]   
+
+               Model  
+0            XGBoost  
+1  Linear Regression  
